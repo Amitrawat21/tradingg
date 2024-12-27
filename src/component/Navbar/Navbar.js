@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Navbar.css";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [show, setShow] = useState(false);
@@ -40,7 +41,7 @@ const Navbar = () => {
         <a href="#">About Us</a>
         <a href="#">Mentorship Program</a>
         <a href="#">Workshops</a>
-        <a href="#">Member's Login</a>
+       <Link to= "login"> <a href="#">Member's Login</a></Link> 
         <a href="#">Contact Us</a>
       </nav>
     </header>
