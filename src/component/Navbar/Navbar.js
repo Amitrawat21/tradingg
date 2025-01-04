@@ -38,8 +38,8 @@ const Navbar = () => {
       </div>
       <nav className={`navbar ${show ? "open" : ""} simple-shadow`}>
         <a href="#">Home</a>
-        <a href="#">About Us</a>
-        <a href="#">Mentorship Program</a>
+        <Link to= "aboutus"> <a href="#">About Us</a></Link> 
+        <Link to= "mentorship"><a href="#">Mentorship Program</a></Link> 
         <a href="#">Workshops</a>
        <Link to= "login"> <a href="#">Member's Login</a></Link> 
         <a href="#">Contact Us</a>

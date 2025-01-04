@@ -4,22 +4,16 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-}
-.container {
-  display: flex;
-  padding: 10px;
-  background-color: red;
-}
-
-.description {
-  position: absolute;
-  backdrop-filter: blur(1px);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  top: 10%;
-  left: 60%;
+}
+
+
+.description {
+  
+  backdrop-filter: blur(1px);
   width: 560px;
   height: 600px;
   border-radius: 10px;
@@ -29,33 +23,30 @@
   background-position: center;
 }
 
-.description {
+
+
+
+
+.home-sub-container{
+  width: 100%;
   display: flex;
-  gap: 10px;
-  justify-content: center;
+justify-content: space-between;
   align-items: center;
+  margin-top: 20px;
+  padding: 40px;
+
 }
-
-
-
 .heading{
 
-  position: absolute;
   display: flex;
   flex-direction: column;
+  gap: 30px;
   justify-content: center;
   align-items: center;
-  left: -100%;
-  gap: 20px;
+
 }
 
-.heading h1 {
-  font-size: 40px;
-  color: white;
-  /* top: 80%;
-  left: 25%;
-  right: 25%; */
-}
+
 .heading .button {
   padding: 20px;
   font-size: 20px;
@@ -87,6 +78,11 @@
   background-color: rgba(0, 0, 0, 0.05); /* Darken the background */
   z-index: 1000; /* Ensure it appears above other elements */
 }
+.home-paragraphh{
+ width: 450px;
+font-size: 25px;
+}
+
 
 @media (max-width: 768px) {
   .home {
@@ -122,15 +118,14 @@
     /* Removes focus outline (optional) */
   }
 
+
   .description .heading {
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
-  .heading h1 {
-    font-size: 28px;
-  }
+
   .description p {
     font-size: 11px;
     text-align: center;

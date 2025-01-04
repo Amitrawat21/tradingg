@@ -14,20 +14,37 @@ const Home = () => {
   return (
     <div className="home" style={{ backgroundImage: `url(${backgroundImg})` }}>
       <Navbar />
-
-      <div className="description"style={{ backgroundImage: `url(${backgroundImg2})`,backgroundSize: "cover" }} >
+      <div className="home-sub-container">
         <div className="heading">
-          <h1 className="simple-shadow workshop">Click Here For Next Month's Workshop</h1>
-          <Link to= "/workshop">
-          <button className="button" onClick={showForm}>
-            Click to register
-          </button>
+          <h5 className="home-paragraphh">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum
+            dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in
+            voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+           
+       
+          </h5>
+          <Link to="/workshop">
+            <button className="button" onClick={showForm}>
+              Click to register
+            </button>
           </Link>
-         
         </div>
-        {/* <p className="simple-shadow">Register For Trabot MemberShip</p> */}
+        <div
+          className="description"
+          style={{
+            backgroundImage: `url(${backgroundImg2})`,
+            backgroundSize: "cover",
+            
+          }}
+        >
+          {/* <p className="simple-shadow">Register For Trabot MemberShip</p> */}
+        </div>
       </div>
-     
     </div>
   );
 };
