@@ -28,7 +28,7 @@ const Home = () => {
            
        
           </h5>
-          <Link to="/workshop">
+          <Link to="/Form">
             <button className="button" onClick={showForm}>
               Click to register
             </button>

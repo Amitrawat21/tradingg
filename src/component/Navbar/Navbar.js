@@ -40,7 +40,7 @@ const Navbar = () => {
         <a href="#">Home</a>
         <Link to= "aboutus"> <a href="#">About Us</a></Link> 
         <Link to= "mentorship"><a href="#">Mentorship Program</a></Link> 
-        <a href="#">Workshops</a>
+          <Link to= "workshop"> <a href="#">Workshops</a></Link> 
        <Link to= "login"> <a href="#">Member's Login</a></Link> 
         <a href="#">Contact Us</a>
       </nav>

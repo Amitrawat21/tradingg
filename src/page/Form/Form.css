@@ -1,0 +1,21 @@
+
+
+.formm {
+    min-height: 100vh; /* Full viewport height */
+    width: 100%;
+    display: flex;
+
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+
+  .formm p{
+    max-width: 40%;
+    font-size: 23px;
+    font-weight: 700;
+  }
