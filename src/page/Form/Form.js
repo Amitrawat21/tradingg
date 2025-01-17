@@ -1,6 +1,6 @@
 
 import React from "react";
-import Contact from "../../component/Navbar/Contact/Contact";
+import Contact from "../../component/Contact/Contact";
 import backgroundImg from "../../Assest/horizontal.png";
 import "./Form.css"
 
